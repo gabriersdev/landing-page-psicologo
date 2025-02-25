@@ -76,7 +76,7 @@ export default function SignUp() {
           </div>
         </div>
         <div className="mt-6 space-y-3">
-          <button className="btn w-full bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%]">
+          <button className="btn w-full bg-linear-to-t from-emerald-600 to-emerald-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%]">
             Register
           </button>
           <div className="text-center text-sm italic text-gray-400">Or</div>
