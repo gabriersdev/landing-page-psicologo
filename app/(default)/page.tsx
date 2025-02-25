@@ -1,23 +1,23 @@
 import AboutMe from "@/components/about-me";
+import Hero from "@/components/hero-home";
+import BusinessCategories from "@/components/business-categories";
+import Services from "@/components/services";
+import LargeTestimonial from "@/components/large-testimonial";
+import Cta from "@/components/cta";
+import Clinical from "@/components/clinical";
 
 export const metadata = {
   title: "Home - Simple",
   description: "Page description",
 };
 
-import Hero from "@/components/hero-home";
-import BusinessCategories from "@/components/business-categories";
-import FeaturesPlanet from "@/components/features-planet";
-import LargeTestimonial from "@/components/large-testimonial";
-import Cta from "@/components/cta";
-import Clinical from "@/components/clinical";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <BusinessCategories />
-      <FeaturesPlanet />
+      <Services />
       <AboutMe/>
       <Clinical/>
       <LargeTestimonial />
