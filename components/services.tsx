@@ -27,7 +27,7 @@ const data = [
 
 export default function Services() {
   return (
-    <section className="relative before:absolute before:inset-0 before:-z-20 before:bg-emerald-800">
+    <section className="relative before:absolute before:inset-0 before:-z-20 before:bg-emerald-800" id={"services"}>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}

@@ -2,7 +2,7 @@ import Badge from "@/components/badge";
 
 export default function AboutMe() {
   return (
-    <section className={"mx-auto max-w-6xl px-4 sm:px-6"}>
+    <section className={"mx-auto max-w-6xl px-4 sm:px-6"} id="about">
       <div className="pb-12 pt-32 md:pb-20 md:pt-40">
         <div className="pb-12 text-center md:pb-16">
           <Badge text={"Sobre mim"}/>

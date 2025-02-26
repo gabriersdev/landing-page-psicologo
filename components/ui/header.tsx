@@ -16,7 +16,7 @@ export default function Header() {
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li>
               <Link
-                href="/signin"
+                href="/#0"
                 className="btn-sm text-gray-800 shadow-sm hover:bg-emerald-200 bg-emerald-100 hidden md:block"
               >
                 Início
@@ -24,7 +24,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/signin"
+                href="#about"
                 className="btn-sm text-gray-800 shadow-sm hover:bg-emerald-200 bg-emerald-100"
               >
                 Sobre
@@ -32,7 +32,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/signin"
+                href="#services"
                 className="btn-sm text-gray-800 shadow-sm hover:bg-emerald-200 bg-emerald-100  hidden md:block"
               >
                 Serviços
@@ -40,7 +40,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/signin"
+                href="/#0"
                 className="btn-sm text-emerald-700 shadow-sm hover:bg-emerald-300 bg-emerald-200"
               >
                 Contato

@@ -4,6 +4,10 @@
 @import './additional-styles/utility-patterns.css' layer(components);
 @import './additional-styles/theme.css';
 
+html {
+  scroll-behavior: smooth;
+}
+
 @plugin "@tailwindcss/forms" {
   strategy: base;
 }
