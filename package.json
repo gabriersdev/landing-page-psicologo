@@ -1,6 +1,6 @@
 {
-  "name": "simple-next",
-  "version": "0.1.0",
+  "name": "landing-page",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
