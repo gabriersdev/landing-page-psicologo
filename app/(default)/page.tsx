@@ -7,21 +7,19 @@ import Cta from "@/components/cta";
 import Clinical from "@/components/clinical";
 
 export const metadata = {
-  title: "Home - Simple",
-  description: "Page description",
+  title: "Início - Joelson Mascarenhas | Psicólogo",
 };
-
 
 export default function Home() {
   return (
     <>
-      <Hero />
-      <BusinessCategories />
-      <Services />
+      <Hero/>
+      <BusinessCategories/>
+      <Services/>
       <AboutMe/>
       <Clinical/>
-      <LargeTestimonial />
-      <Cta />
+      <LargeTestimonial/>
+      <Cta/>
     </>
   );
 }
