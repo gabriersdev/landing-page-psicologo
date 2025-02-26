@@ -22,7 +22,7 @@ export default function ContactForm() {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({...formData, _next: `${window.location.origin}/success` }),
-    }).then(response => response.json())
+    }).then(response => console.log(response))
       .then(data => console.log(data))
       .catch(error => console.error("Erro:", error));
   };
@@ -34,7 +34,7 @@ export default function ContactForm() {
         {/* Section header */}
         <div className="pb-12 text-center md:pb-16 flex items-center justify-center flex-col">
           <h2 className="text-3xl font-semibold text-emerald-600 md:text-4xl mb-8 text-center">Entre em Contato</h2>
-          <form onSubmit={(e) => handleSubmit(e)} className="space-y-4">
+          <form action={"https://formsubmit.co/devgabrielribeiro@gmail.com"} method={"POST"} className="space-y-4">
             <label form={"name"} className="block text-sm text-left font-medium text-gray-500 hidden">Nome</label>
             <input
               type="text"
