@@ -25,9 +25,8 @@ export default function SuccessSendMassage() {
         {/* Section header */}
         <div className="pb-12 text-center md:pb-16 flex items-center justify-center flex-col">
           <h2 className={"text-3xl font-semibold text-emerald-600 md:text-4xl text-balance"}>
-            Obrigado! Já recebi a sua mensagem! Retornarei assim que possível.
+            Obrigado! Já recebi a sua mensagem! Retornarei assim que possível. {cumpriments}
           </h2>
-          <span className={"block mt-4 text-3xl font-bold text-emerald-800"}>{cumpriments}</span>
         </div>
       </div>
     </div>
