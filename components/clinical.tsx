@@ -30,7 +30,7 @@ export default function Clinical() {
             </article>
           </div>
         </div>
-        <figure className={"md:px-3"}>
+        <figure className={"px-2 md:px-3"}>
           <Image src={ImageHands} alt={"Apoio"} className={"w-full h-[300px] md:h-[500px] object-cover rounded-xl shadow border-emerald-500"}/>
           <figcaption className={"text-center mt-3 text-emerald-200/50"}>Uma rede de apoio é importante para o tratamento.</figcaption>
         </figure>

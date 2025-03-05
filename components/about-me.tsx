@@ -15,7 +15,7 @@ export default function AboutMe() {
             </article>
           </div>
         </div>
-        <figure>
+        <figure className={"px-2 md:px-3"}>
           <Image src={ImageTherapy} alt={"Terapia"} className={"w-full h-[300px] md:h-[500px] object-cover rounded-xl shadow border-emerald-500"}/>
           <figcaption className={"text-center mt-3 text-emerald-200/50 text-balance"}>A terapia em conjunto com outras atividades melhora significativamente a vida dos pacientes.</figcaption>
         </figure>
