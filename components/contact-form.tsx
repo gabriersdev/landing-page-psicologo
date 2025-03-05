@@ -28,12 +28,12 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="mx-auto max-w-6xl px-4 sm:px-6">
+    <div className="mx-auto max-w-6xl px-4 sm:px-6" id={"contact-form"} data-aos="fade-up" data-aos-delay={300}>
       {/* Hero content */}
       <div className="pb-12 pt-32 md:pb-20 md:pt-40">
         {/* Section header */}
         <div className="pb-12 text-center md:pb-16 flex items-center justify-center flex-col">
-          <h2 className="text-3xl font-semibold text-emerald-600 md:text-4xl mb-8 text-center">Entre em Contato</h2>
+          <h2 className="text-3xl font-semibold text-emerald-600 md:text-4xl mb-8 text-center">Entre em contato</h2>
           <form action={"https://formsubmit.co/devgabrielribeiro@gmail.com"} method={"POST"} className="space-y-4">
             <label form={"name"} className="block text-sm text-left font-medium text-gray-500 hidden">Nome</label>
             <input
@@ -45,6 +45,7 @@ export default function ContactForm() {
               onChange={(e) => handleChange(e)}
               className={classInput}
               required
+              autoComplete={"off"}
             />
             <label form={"email"} className="block text-sm text-left font-medium text-gray-500 hidden">E-mail</label>
             <input
@@ -56,6 +57,7 @@ export default function ContactForm() {
               onChange={(e) => handleChange(e)}
               className={classInput}
               required
+              autoComplete={"off"}
             />
             <label form={"message"}
                    className="block text-sm text-left font-medium text-gray-500 hidden">Mensagem</label>
@@ -67,11 +69,14 @@ export default function ContactForm() {
               onChange={(e) => handleChange(e)}
               className={classInput}
               required
+              autoComplete={"off"}
             >
         </textarea>
             <button
-              className="btn group mt-4 mb-4 w-full bg-linear-to-t from-emerald-600 to-emerald-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%] sm:mb-0"
+              className="btn group mt-4 mb-4 w-full bg-linear-to-t from-emerald-600 to-emerald-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%] sm:mb-0 cursor-pointer"
               type="submit"
+              data-aos="fade-up"
+              data-aos-delay={600}
             >
                     <span className="relative inline-flex items-center text-[16px]">
                       Enviar a mensagem

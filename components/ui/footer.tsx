@@ -58,12 +58,16 @@ export default function Footer({border = false}: { border?: boolean }) {
 
           {/* 2nd block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-3">
-            <h3 className="text-sm font-medium">Sobre mim</h3>
+            <h3 className="text-sm font-medium">
+              <Link href={"#about-me"}>
+                Sobre mim
+              </Link>
+            </h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="#services"
                 >
                   Serviços
                 </Link>
@@ -71,7 +75,7 @@ export default function Footer({border = false}: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="#clinical"
                 >
                   Tratamento
                 </Link>

@@ -24,7 +24,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/#about"
+                href="/#about-me"
                 className="btn-sm text-gray-800 shadow-sm hover:bg-emerald-200 bg-emerald-100"
               >
                 Sobre
@@ -40,7 +40,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/#0"
+                href="/#contact-form"
                 className="btn-sm text-emerald-700 shadow-sm hover:bg-emerald-300 bg-emerald-200"
               >
                 Contato

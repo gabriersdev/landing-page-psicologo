@@ -1,6 +1,6 @@
 export default function LargeTestimonial() {
   return (
-    <section>
+    <section data-aos="fade-up" data-aos-delay={300}>
       <div className="mx-auto max-w-2xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           <div className="space-y-3 text-center">
