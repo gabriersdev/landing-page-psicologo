@@ -41,7 +41,7 @@ export default function HeroHome() {
                 >
                   <a
                     className="btn group mb-4 w-full bg-linear-to-t from-emerald-600 to-emerald-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="#0"
+                    href="#contact-form"
                   >
                     <span className="relative inline-flex items-center text-[16px]">
                       Marque sua consulta
@@ -53,7 +53,7 @@ export default function HeroHome() {
                   </a>
                   <a
                     className="btn w-full bg-white text-gray-800 shadow-sm hover:bg-gray-50 sm:ml-4 sm:w-auto text-[16px] flex gap-1"
-                    href="#0"
+                    href="https://medium.com/@jmascarenhaspsi"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                          className="bi bi-medium" viewBox="0 0 16 16">

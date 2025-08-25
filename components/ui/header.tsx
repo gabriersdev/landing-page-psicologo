@@ -8,8 +8,13 @@ export default function Header() {
         <div
           className="relative flex h-14 items-center justify-between gap-3  bg-white/90 px-3 shadow-lg shadow-black/[0.03] backdrop-blur-xs before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(var(--color-gray-100),var(--color-gray-200))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] [&_*]:text-[16px]" style={{borderRadius: "8.5px"}}>
           {/* Site branding */}
-          <div className="flex flex-1 items-center">
+          <div className="flex flex-1 items-center flex-wrap">
             <Logo/>
+            
+            <div className={"items-center gap-[0.25rem] items-start [&_*]:leading-none flex-col ml-3 hidden sm:flex"}>
+              <span>Joelson Mascarenhas</span>
+              <span className={"text-gray-500 lowercase"} style={{fontSize: "13px"}}>Psicólogo Clínico</span>
+            </div>
           </div>
 
           {/* Desktop sign in links */}

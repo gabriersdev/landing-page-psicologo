@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ImageTherapy from "@/public/images/therapy.jpg";
 import Badge from "@/components/badge";
+import Link from "next/link";
 
 export default function AboutMe() {
   return (
@@ -15,10 +16,21 @@ export default function AboutMe() {
             </article>
           </div>
         </div>
-        <figure className={"px-2 md:px-3"}>
+        <figure className={"px-2 md:px-3 pb-12 md:pb-16"}>
           <Image src={ImageTherapy} alt={"Terapia"} className={"w-full h-[300px] md:h-[500px] object-cover rounded-xl shadow border-emerald-500"}/>
-          <figcaption className={"text-center mt-3 text-emerald-200/50 text-balance"}>A terapia em conjunto com outras atividades melhora significativamente a vida dos pacientes.</figcaption>
+          <figcaption className={"text-center mt-3 text-emerald-500 text-balance"}>A terapia em conjunto com outras atividades melhora significativamente a vida dos pacientes.</figcaption>
         </figure>
+        
+        <div className={"text-center"} id={"sessions"}>
+          <h2 className={"mt-4 text-3xl font-bold text-emerald-600 md:text-4xl"}>Atendimentos</h2>
+          
+          <ul className={"mt-8 text-xl"}>
+            <li>Segundas, Quartas e Sextas - das 11h às 20h</li>
+            <li>Terças, Quintas e Sábados - das 09h às 13h</li>
+          </ul>
+          
+          <p className={"text-xl mt-8"}>Atendimento online. <Link href={"#contact-form"} className={"text-emerald-500 font-semibold"}>Agenda sua consulta agora mesmo!</Link></p>
+        </div>
       </div>
     </section>
   )
